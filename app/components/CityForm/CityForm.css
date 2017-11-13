@@ -1,0 +1,37 @@
+.city-form-wrapper--centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 200px;
+    margin-left: -175px;
+    margin-top: -100px;
+}
+
+.city-form__title {
+    margin: 0 auto 15px auto;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.city-form button {
+    margin: 10px;
+}
+
+.city-form:not(.form-inline) input[type="text"] {
+    padding: 15px 10px;
+    height: auto;
+    font-size: 18px;
+}
+
+.city-form:not(.form-inline) button {
+    display: block;
+    margin: 0 auto;
+}
+
+#form-inline.city-form--has-error .glyphicon,
+#form-block.city-form--has-error .glyphicon {
+    top: 8px;
+}

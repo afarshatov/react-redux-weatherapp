@@ -1,0 +1,36 @@
+.grid-cell {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 200px;
+    margin: 20px 0;
+}
+
+a.grid-cell:hover {
+    text-decoration: none;
+}
+
+img.weather-icon {
+    display: block;
+    height: 150px;
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+div.day-text {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+a.grid-cell:hover div.day-text {
+    color: #333;
+}
+
+.grid-cell--has-error .error-text {
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+}

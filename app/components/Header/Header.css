@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    background-color: #ff8e32;
+    padding: 5px;
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header .header__title {
+    float: left;
+}
+
+header .header__form {
+    float: right;
+}
+
+header .header__title h1,
+header .header__title a {
+    display: block;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .header__title a:hover {
+    text-decoration: none;
+}

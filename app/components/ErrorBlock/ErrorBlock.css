@@ -1,0 +1,21 @@
+div.error-block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+div.error-block__wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+div.error-block__text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}

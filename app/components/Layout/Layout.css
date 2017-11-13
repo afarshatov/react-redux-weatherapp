@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+html, body, #app, #mainContainer {
+    height: 100%;
+}
+
+main {
+    min-height: calc(100% - 69px);
+    background-color: #eee;
+    position: relative;
+}
